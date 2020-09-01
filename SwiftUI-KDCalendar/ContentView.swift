@@ -50,6 +50,20 @@ struct MasterView: View {
 
     var body: some View {
         List {
+            Section(header: Text("CALENDAR")) {
+                                       // calendar view
+                                      //Image("category_new").resizable().aspectRatio(contentMode: .fit).cornerRadius(20)
+                                       
+                                       
+                                       VStack{
+                                           THECalendar()
+                                               .frame(width: 320, height: 360)
+                                               .padding(.leading, 11)
+                                               .padding(.bottom, 7)
+                                       }
+            
+                                      
+                                   }
             ForEach(events, id: \.self) { event in
                 NavigationLink(
                     destination: DetailView(event: event)

@@ -17,6 +17,18 @@
 		8B4B4B8724FEE00100DEF116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B4B8524FEE00100DEF116 /* LaunchScreen.storyboard */; };
 		8B4B4B9224FEE00100DEF116 /* SwiftUI_KDCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4B9124FEE00100DEF116 /* SwiftUI_KDCalendarTests.swift */; };
 		8B4B4B9D24FEE00100DEF116 /* SwiftUI_KDCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4B9C24FEE00100DEF116 /* SwiftUI_KDCalendarUITests.swift */; };
+		8B4B4BB424FEE04C00DEF116 /* EventsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BAB24FEE04C00DEF116 /* EventsManager.swift */; };
+		8B4B4BB524FEE04C00DEF116 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BAC24FEE04C00DEF116 /* CalendarFlowLayout.swift */; };
+		8B4B4BB624FEE04C00DEF116 /* CalendarView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BAD24FEE04C00DEF116 /* CalendarView+Delegate.swift */; };
+		8B4B4BB724FEE04C00DEF116 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BAE24FEE04C00DEF116 /* CalendarDayCell.swift */; };
+		8B4B4BB824FEE04C00DEF116 /* CalendarView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BAF24FEE04C00DEF116 /* CalendarView+DataSource.swift */; };
+		8B4B4BB924FEE04C00DEF116 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BB024FEE04C00DEF116 /* CalendarView.swift */; };
+		8B4B4BBA24FEE04C00DEF116 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BB124FEE04C00DEF116 /* CalendarHeaderView.swift */; };
+		8B4B4BBB24FEE04C00DEF116 /* CalendarView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BB224FEE04C00DEF116 /* CalendarView+Extensions.swift */; };
+		8B4B4BBC24FEE04C00DEF116 /* CalendarView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BB324FEE04C00DEF116 /* CalendarView+Style.swift */; };
+		8B4B4BBE24FEE09500DEF116 /* CalendarViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BBD24FEE09500DEF116 /* CalendarViewWrapper.swift */; };
+		8B4B4BC024FEE51300DEF116 /* Booking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BBF24FEE51300DEF116 /* Booking+CoreDataClass.swift */; };
+		8B4B4BC224FEE53D00DEF116 /* Booking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BC124FEE53D00DEF116 /* Booking+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,18 @@
 		8B4B4B9824FEE00100DEF116 /* SwiftUI-KDCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-KDCalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4B4B9C24FEE00100DEF116 /* SwiftUI_KDCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_KDCalendarUITests.swift; sourceTree = "<group>"; };
 		8B4B4B9E24FEE00100DEF116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4B4BAB24FEE04C00DEF116 /* EventsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsManager.swift; path = ../../../../Documents/CalendarView/KDCalendar/CalendarView/EventsManager.swift; sourceTree = "<group>"; };
+		8B4B4BAC24FEE04C00DEF116 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarFlowLayout.swift; path = ../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		8B4B4BAD24FEE04C00DEF116 /* CalendarView+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CalendarView+Delegate.swift"; path = "../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarView+Delegate.swift"; sourceTree = "<group>"; };
+		8B4B4BAE24FEE04C00DEF116 /* CalendarDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarDayCell.swift; path = ../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarDayCell.swift; sourceTree = "<group>"; };
+		8B4B4BAF24FEE04C00DEF116 /* CalendarView+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CalendarView+DataSource.swift"; path = "../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarView+DataSource.swift"; sourceTree = "<group>"; };
+		8B4B4BB024FEE04C00DEF116 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = ../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarView.swift; sourceTree = "<group>"; };
+		8B4B4BB124FEE04C00DEF116 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarHeaderView.swift; path = ../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarHeaderView.swift; sourceTree = "<group>"; };
+		8B4B4BB224FEE04C00DEF116 /* CalendarView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CalendarView+Extensions.swift"; path = "../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarView+Extensions.swift"; sourceTree = "<group>"; };
+		8B4B4BB324FEE04C00DEF116 /* CalendarView+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CalendarView+Style.swift"; path = "../../../../Documents/CalendarView/KDCalendar/CalendarView/CalendarView+Style.swift"; sourceTree = "<group>"; };
+		8B4B4BBD24FEE09500DEF116 /* CalendarViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewWrapper.swift; sourceTree = "<group>"; };
+		8B4B4BBF24FEE51300DEF116 /* Booking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8B4B4BC124FEE53D00DEF116 /* Booking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,8 @@
 		8B4B4B6924FEDFFF00DEF116 = {
 			isa = PBXGroup;
 			children = (
+				8B4B4BC124FEE53D00DEF116 /* Booking+CoreDataProperties.swift */,
+				8B4B4BBF24FEE51300DEF116 /* Booking+CoreDataClass.swift */,
 				8B4B4B7424FEDFFF00DEF116 /* SwiftUI-KDCalendar */,
 				8B4B4B9024FEE00100DEF116 /* SwiftUI-KDCalendarTests */,
 				8B4B4B9B24FEE00100DEF116 /* SwiftUI-KDCalendarUITests */,
@@ -103,6 +129,7 @@
 		8B4B4B7424FEDFFF00DEF116 /* SwiftUI-KDCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				8B4B4BAA24FEE02600DEF116 /* CalendarView */,
 				8B4B4B7524FEDFFF00DEF116 /* AppDelegate.swift */,
 				8B4B4B7A24FEDFFF00DEF116 /* SceneDelegate.swift */,
 				8B4B4B7C24FEDFFF00DEF116 /* Event.swift */,
@@ -112,6 +139,7 @@
 				8B4B4B8824FEE00100DEF116 /* Info.plist */,
 				8B4B4B7724FEDFFF00DEF116 /* SwiftUI_KDCalendar.xcdatamodeld */,
 				8B4B4B8224FEE00100DEF116 /* Preview Content */,
+				8B4B4BBD24FEE09500DEF116 /* CalendarViewWrapper.swift */,
 			);
 			path = "SwiftUI-KDCalendar";
 			sourceTree = "<group>";
@@ -140,6 +168,22 @@
 				8B4B4B9E24FEE00100DEF116 /* Info.plist */,
 			);
 			path = "SwiftUI-KDCalendarUITests";
+			sourceTree = "<group>";
+		};
+		8B4B4BAA24FEE02600DEF116 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B4BAE24FEE04C00DEF116 /* CalendarDayCell.swift */,
+				8B4B4BAC24FEE04C00DEF116 /* CalendarFlowLayout.swift */,
+				8B4B4BB124FEE04C00DEF116 /* CalendarHeaderView.swift */,
+				8B4B4BB024FEE04C00DEF116 /* CalendarView.swift */,
+				8B4B4BAF24FEE04C00DEF116 /* CalendarView+DataSource.swift */,
+				8B4B4BAD24FEE04C00DEF116 /* CalendarView+Delegate.swift */,
+				8B4B4BB224FEE04C00DEF116 /* CalendarView+Extensions.swift */,
+				8B4B4BB324FEE04C00DEF116 /* CalendarView+Style.swift */,
+				8B4B4BAB24FEE04C00DEF116 /* EventsManager.swift */,
+			);
+			path = CalendarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +317,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4B4BB424FEE04C00DEF116 /* EventsManager.swift in Sources */,
+				8B4B4BBE24FEE09500DEF116 /* CalendarViewWrapper.swift in Sources */,
+				8B4B4BBA24FEE04C00DEF116 /* CalendarHeaderView.swift in Sources */,
+				8B4B4BC024FEE51300DEF116 /* Booking+CoreDataClass.swift in Sources */,
+				8B4B4BB624FEE04C00DEF116 /* CalendarView+Delegate.swift in Sources */,
+				8B4B4BB524FEE04C00DEF116 /* CalendarFlowLayout.swift in Sources */,
+				8B4B4BBC24FEE04C00DEF116 /* CalendarView+Style.swift in Sources */,
 				8B4B4B7D24FEDFFF00DEF116 /* Event.swift in Sources */,
 				8B4B4B7F24FEDFFF00DEF116 /* ContentView.swift in Sources */,
+				8B4B4BB824FEE04C00DEF116 /* CalendarView+DataSource.swift in Sources */,
+				8B4B4BC224FEE53D00DEF116 /* Booking+CoreDataProperties.swift in Sources */,
+				8B4B4BB924FEE04C00DEF116 /* CalendarView.swift in Sources */,
+				8B4B4BB724FEE04C00DEF116 /* CalendarDayCell.swift in Sources */,
 				8B4B4B7924FEDFFF00DEF116 /* SwiftUI_KDCalendar.xcdatamodeld in Sources */,
 				8B4B4B7624FEDFFF00DEF116 /* AppDelegate.swift in Sources */,
+				8B4B4BBB24FEE04C00DEF116 /* CalendarView+Extensions.swift in Sources */,
 				8B4B4B7B24FEDFFF00DEF116 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,8 +507,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "aegladfelter.SwiftUI-KDCalendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = KDCALENDAR_EVENT_MANAGER_ENABLED;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,8 +529,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "aegladfelter.SwiftUI-KDCalendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = KDCALENDAR_EVENT_MANAGER_ENABLED;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
