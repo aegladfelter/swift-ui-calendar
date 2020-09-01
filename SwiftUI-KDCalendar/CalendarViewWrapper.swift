@@ -35,11 +35,15 @@ public struct THECalendar: UIViewRepresentable {
         public func calendar(_ calendar: CalendarView, didSelectDate date: Date, withEvents events: [CalendarEvent]) {print("didSelectDateWithEvents")}
         public func calendar(_ calendar: CalendarView, didLongPressDate date: Date, withEvents events: [CalendarEvent]?) {
             print("did long press")
+            //Trying to manually ad a hardcoded Event.
+            self.Ccalendar.addEvent("test123", date: Date())
+            
             if let events = events {
                           for event in events {
                               print("\t\"\(event.title)\" - Starting at:\(event.startDate)")
                           }
                       }
+            
                       
                       let alert = UIAlertController(title: "Create New Event", message: "Message", preferredStyle: .alert)
                       
@@ -86,12 +90,6 @@ public struct THECalendar: UIViewRepresentable {
         Coordinator()
     }
     
-
-
-
-
-
-
     public func updateUIView(_ UIcalendar: CalendarView, context: Context) {
         UIcalendar.selectDate(self.date)
     }
