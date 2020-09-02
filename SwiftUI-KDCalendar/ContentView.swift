@@ -57,6 +57,7 @@ struct MasterView: View {
                                        
                                        VStack{
                                            THECalendar()
+                                            //CalendarController()
                                                .frame(width: 320, height: 360)
                                                .padding(.leading, 11)
                                                .padding(.bottom, 7)

@@ -9,13 +9,15 @@
 import Foundation
 import SwiftUI
 import UIKit
+import EventKit
 
 public struct THECalendar: UIViewRepresentable {
     var date: Date = .init()
     //typealias UIViewControllerType = UIViewController
     
     public func makeUIView(context: Context) -> CalendarView {
-        let UIcalendar: CalendarView = .init()
+        let UIcalendar: CalendarView
+        UIcalendar =  .init()
         UIcalendar.setDisplayDate(self.date, animated: false)
         UIcalendar.selectDate(self.date)
 
@@ -35,7 +37,7 @@ public struct THECalendar: UIViewRepresentable {
         public func calendar(_ calendar: CalendarView, didSelectDate date: Date, withEvents events: [CalendarEvent]) {print("didSelectDateWithEvents")}
         public func calendar(_ calendar: CalendarView, didLongPressDate date: Date, withEvents events: [CalendarEvent]?) {
             print("did long press")
-            //Trying to manually ad a hardcoded Event.
+            
             self.Ccalendar.addEvent("test123", date: Date())
             
             if let events = events {

@@ -29,6 +29,7 @@
 		8B4B4BBE24FEE09500DEF116 /* CalendarViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BBD24FEE09500DEF116 /* CalendarViewWrapper.swift */; };
 		8B4B4BC024FEE51300DEF116 /* Booking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BBF24FEE51300DEF116 /* Booking+CoreDataClass.swift */; };
 		8B4B4BC224FEE53D00DEF116 /* Booking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BC124FEE53D00DEF116 /* Booking+CoreDataProperties.swift */; };
+		8B4B4BC424FF31AF00DEF116 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B4BC324FF31AF00DEF116 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		8B4B4BBD24FEE09500DEF116 /* CalendarViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewWrapper.swift; sourceTree = "<group>"; };
 		8B4B4BBF24FEE51300DEF116 /* Booking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8B4B4BC124FEE53D00DEF116 /* Booking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Booking+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8B4B4BC324FF31AF00DEF116 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				8B4B4B7724FEDFFF00DEF116 /* SwiftUI_KDCalendar.xcdatamodeld */,
 				8B4B4B8224FEE00100DEF116 /* Preview Content */,
 				8B4B4BBD24FEE09500DEF116 /* CalendarViewWrapper.swift */,
+				8B4B4BC324FF31AF00DEF116 /* CalendarViewController.swift */,
 			);
 			path = "SwiftUI-KDCalendar";
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				8B4B4BC024FEE51300DEF116 /* Booking+CoreDataClass.swift in Sources */,
 				8B4B4BB624FEE04C00DEF116 /* CalendarView+Delegate.swift in Sources */,
 				8B4B4BB524FEE04C00DEF116 /* CalendarFlowLayout.swift in Sources */,
+				8B4B4BC424FF31AF00DEF116 /* CalendarViewController.swift in Sources */,
 				8B4B4BBC24FEE04C00DEF116 /* CalendarView+Style.swift in Sources */,
 				8B4B4B7D24FEDFFF00DEF116 /* Event.swift in Sources */,
 				8B4B4B7F24FEDFFF00DEF116 /* ContentView.swift in Sources */,
